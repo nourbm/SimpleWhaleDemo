@@ -41,7 +41,7 @@ jobs:
           context: ./
           file: ./Dockerfile
           push: true
-          tags: nourbm/simplewhaleDemo:latest
+          tags: ushamandya/simplewhaleDemo:latest
           cache-from: type=local,src=/tmp/.buildx-cache
           cache-to: type=local,dest=/tmp/.buildx-cache
 
